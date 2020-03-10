@@ -1,0 +1,28 @@
+{
+  "name": "injectable",
+  "version": "1.0.0",
+  "description": "ts 依赖注入demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/app.ts",
+    "dev": "ts-node-dev src/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitHber/injectable.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gitHber/injectable/issues"
+  },
+  "homepage": "https://github.com/gitHber/injectable#readme",
+  "dependencies": {
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^8.6.2",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.8.3"
+  }
+}
